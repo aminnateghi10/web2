@@ -28,3 +28,17 @@ Form.addEventListener('submit', () => {
             console.log(error);
         });
 })
+
+// dark mode
+
+
+let light =  document.querySelectorAll('.light')
+let darkMode = document.querySelector('#dark-mode')
+darkMode.addEventListener('click',()=>{
+    light.forEach(e => {
+        e.classList.toggle('dark')
+        e.classList.toggle('light')
+        darkMode.classList.toggle('bi-sun-fill')
+        darkMode.classList.toggle('bi-sun')
+    }); 
+})
