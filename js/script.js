@@ -32,13 +32,18 @@ Form.addEventListener('submit', () => {
 // dark mode
 
 
-let light =  document.querySelectorAll('.light')
+let textDark = document.querySelectorAll('.text-dark')
+let light = document.querySelectorAll('.light')
 let darkMode = document.querySelector('#dark-mode')
-darkMode.addEventListener('click',()=>{
+darkMode.addEventListener('click', () => {
     light.forEach(e => {
         e.classList.toggle('dark')
         e.classList.toggle('light')
         darkMode.classList.toggle('bi-sun-fill')
         darkMode.classList.toggle('bi-sun')
-    }); 
+    });
+    textDark.forEach(e => {
+        e.classList.toggle('text-light')
+        e.classList.toggle('text-dark')
+    });
 })
