@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-15:14:58	273/273	---M--	404	error ('Not%20Found')	text/html	date:Fri,%2029%20Apr%202022%2010:44:56%20GMT	http://jthemes.net/themes/html/bolby/demo/index-3-light.html	C:/Users/Amin%20Nateghi/Desktop/a/jthemes.net/themes/html/bolby/demo/index-3-light.0.delayed	(from )
-15:14:58	273/273	---M--	404	error ('Not%20Found')	text/html	date:Fri,%2029%20Apr%202022%2010:44:57%20GMT	http://jthemes.net/robots.txt		(from )

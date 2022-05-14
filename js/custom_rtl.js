@@ -232,6 +232,7 @@ $(document).on('ready', function() {
     =========================================================================*/
     $('.testimonials-wrapper').slick({
       dots: true,
+      rtl:true,
       arrows: false,
       autoplay: true,
       autoplaySpeed: 3000
