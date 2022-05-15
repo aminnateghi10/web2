@@ -93,3 +93,7 @@ body.dark .timeline.exp .timeline-container::after, body.dark .timeline.edu .tim
 ,body.dark .timeline.exp .timeline-container::before {
     background-color: #302f4e;
 }
+
+.section-title:before{
+    right: -13px;
+}
