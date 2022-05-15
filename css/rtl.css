@@ -81,6 +81,15 @@ h6,
     padding-right: 30px;
 }
 
+.timeline .timeline-container {
+    padding-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    background-color: inherit;
+    width: 100%;
+}
 
-
-
+body.dark .timeline.exp .timeline-container::after, body.dark .timeline.edu .timeline-container::before
+,body.dark .timeline.exp .timeline-container::before {
+    background-color: #302f4e;
+}

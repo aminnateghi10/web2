@@ -12,6 +12,8 @@ let InputEmail = document.querySelector('#InputEmail')
 let InputSubject = document.querySelector('#InputSubject')
 let InputMessage = document.querySelector('#InputMessage')
 let Form = document.querySelector('#contact-form')
+let AnswerRequest = document.querySelector('#answer-request');
+
 
 Form.addEventListener('submit', () => {
     // e.preventDefault();
@@ -21,11 +23,16 @@ Form.addEventListener('submit', () => {
         subject: InputSubject.value,
         body: InputMessage.value
     })
-        .then(function (response) {
-            console.log('ارسال شد');
+        .then(function () {
+            AnswerRequest.classList.add('active')
+            AnswerRequest.style.background = 'green'
+            AnswerRequest.textContent = 'ارسال شد'
         })
-        .catch(function (error) {
-            console.log(error);
+        .catch(function () {
+            AnswerRequest.classList.add('active')
+            AnswerRequest.style.background = 'red'
+            AnswerRequest.textContent = 'ارسال نشد'
+            console.log('skldf');
         });
 })
 
